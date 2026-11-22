@@ -1,0 +1,32 @@
+You are a FRESH build session for a make.fun bounty. This session started after the competition opened (valid for the transcript gate). Build ONE entry from scratch.
+
+COMPETITION:
+- Slug: the-plan-make-fun-will-carry-20261122-2138
+- Title: "The plan make.fun will carry out in public"
+- Prize: $50 USDC (escrow, Solana)
+- Entries deadline: 2026-11-23T00:48:00Z = 23 Nov 2026 07:48 WIB
+- Requirements (READ FULLY FIRST, including deliverables, checks, prerequisites): /home/hatch/workspace/makefun/req/the-plan-make-fun-will-carry-20261122-2138.json
+- Kit (download only if you need the CLI for local checks): curl -sSL "https://make.fun/c/the-plan-make-fun-will-carry-20261122-2138/kit" | tar xz into ~/workspace/makefun/kit/the-plan-make-fun-will-carry-20261122-2138-kit/ (Node 22 required for the CLI; do NOT use Node 23.0-23.7)
+
+RULES (hard):
+- Entry is for @0xyfann, wallet 9MhJBXaELZGynEpDREwUdMbk6isdc9SrYboXkog8JQZD.
+- Build in ~/workspace/makefun/the-plan-make-fun-will-carry-20261122-2138/ — entrypoint main.ts (Node 22) OR main.py (Python 3.13) at the root of that dir.
+- Grading sandbox: Node 22 main.ts OR Python 3.13 main.py, STDLIB ONLY, run 2x in a fresh container with no network, 1 CPU, 512MB, 60s; both runs must write BYTE-IDENTICAL output. Respect MAKEFUN_OUTPUT_DIR. No network access in the entry program.
+- Write the code YOURSELF in multiple steps: write, run, fix, revise the same file at least twice. Do NOT copy starter-kit code verbatim. Do NOT paste/clone code from elsewhere. You need >=30% authored lines, >=5 assistant turns with text, and at least one file revised by >=2 of your messages (transcript gate).
+- LICENSE: MIT, with an SPDX license line at the very top.
+- README.md with the 3 live make.fun badges from requirements how_to_submit.readme_template (replace {owner}=0xyfann and {repo}=makefun-the-plan-make-fun-will-carry-20261122-2138).
+- .makefun/owner.json containing {"wallet": "9MhJBXaELZGynEpDREwUdMbk6isdc9SrYboXkog8JQZD"}.
+- Do NOT create a GitHub repo. Do NOT submit anything. Do NOT run any submit/bundle/claim command. Local build + self-test only.
+- If the requirements' prerequisites need something you cannot do (e.g. a personal social account, a secret, a payment), STOP and report it as a blocker — do not fake it.
+- Work efficiently: keep web browsing minimal; do your reasoning and file work directly.
+
+SELF-TEST (required before you report done):
+- Run the entrypoint locally twice (fresh output dirs) and confirm exit 0 and byte-identical outputs (or the equivalent check the competition specifies).
+- If the competition's kit has a local grade/check that works offline, run it.
+
+RECORD:
+- Save the EXACT brief text you received (this message, verbatim) to ~/workspace/makefun/the-plan-make-fun-will-carry-20261122-2138/prompt.txt — byte-exact, no edits.
+- Report your session ID (find it in your agent dir under ~/agents/<your-agent-id>/sessions/<id>.jsonl) in your final report.
+- Final report: entry directory, session ID, prompt file path, self-test result (commands + outputs), and any blocker.
+
+DEADLINE: entries close 23 Nov 2026 07:48 WIB. Work fast but do not cut the self-test.
